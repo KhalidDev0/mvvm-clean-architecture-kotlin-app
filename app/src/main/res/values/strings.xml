@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MySTC Assignment</string>
+    <string name="ic_person_description">user Logo</string>
+
+    <string name="title_home">Users List:</string>
+    <string name="title_refresh_btn">Refresh</string>
+
+    <string name="msg_no_internet">No Internet Connection Please try Again Later</string>
+    <string name="msg_unknown_error">Something Went Wrong</string>
+</resources>

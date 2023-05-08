@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_large"
+    android:background="@drawable/bg_rounded_card"
+    android:elevation="@dimen/elevation_card"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_large_2">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="@dimen/size_user_card_ic"
+        android:layout_height="@dimen/size_user_card_ic"
+        android:contentDescription="@string/ic_person_description"
+        android:src="@drawable/ic_person" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/padding_large_1">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
